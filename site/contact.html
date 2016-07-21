@@ -1,0 +1,338 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+
+<script type="text/javascript" src="view.js"></script>
+
+<meta charset="utf-8" />
+
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+<title>Shady Oaks Campground</title>
+
+<!--[if lt IE 9]>
+
+  <script src="js/html5.js"></script>
+
+  <link rel="stylesheet" href="css/ie.css" />
+
+<![endif]-->
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+
+function slideSwitch() {
+
+	var $active = $('#slideshow IMG.active');
+
+	
+
+	if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+	
+
+	var $next = $active.next().length ? $active.next()
+
+		: $('#slideshow IMG:first');
+
+	
+
+	$active.addClass('last-active');
+
+	
+
+	$next.css({opacity: 0.0})
+
+		.addClass('active')
+
+		.animate({opacity: 1.0}, 1000, function() {
+
+			$active.removeClass('active last-active');
+
+		});
+
+}
+
+
+
+$(function() {
+
+	setInterval( "slideSwitch()", 5000 );
+
+});
+
+
+
+  </script>
+
+  <link href='http://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
+
+  <link href='css/unsemantic-grid-responsive.css' rel='stylesheet' type='text/css'>
+
+  <link href='css/soc.css' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<!-- DO NOT MOVE! The following AllWebMenus linking code section must always be placed right AFTER the BODY tag-->
+
+<!-- ******** BEGIN ALLWEBMENUS CODE FOR banner ******** -->
+
+<script type="text/javascript">var MenuLinkedBy="AllWebMenus [4]",awmMenuName="banner",awmBN="934";</script><script charset="UTF-8" src="banner.js" type="text/javascript"></script><script type="text/javascript">awmBuildMenu();</script>
+
+<!-- ******** END ALLWEBMENUS CODE FOR banner ******** -->
+
+
+
+<!-- Google Tag Manager -->
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TLWNXT"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-TLWNXT');</script>
+
+<!-- End Google Tag Manager -->
+
+	<div class="header">
+
+	<div class="grid-container">
+
+		<div class="grid-45 logo">
+
+			<img src="images/soclogo3.png">
+
+			<p align="center">32 Leaches Point Road Orland, ME 04472<br />
+
+			207.469.7739</p>
+
+		</div>
+
+		<div class="grid-35">
+
+			<div id="slideshow">
+
+				<img src="images/slides/lighthouse.jpg" class="active">
+
+				<img src="images/slides/fog.jpg">
+
+				<img src="images/slides/heron.jpg">
+
+				<img src="images/slides=mt-desert.jpg">
+
+				<img src="images/slides/bucksport.jpg">
+
+				<img src="images/slides/lupine.jpg">
+
+				<img src="images/slides/seal.jpg">
+
+			</div>
+
+		</div>
+
+	</div>
+
+	</div>
+
+	<div class="adornment"></div>
+
+	<p />
+
+	<div class="grid-container">
+
+		<div class="grid-20">
+
+			<section class="menutitle">
+			    <a href="index.html">Home</a></section><br />
+
+			 <section class="menutitle">
+			    <a href="https://reserve1.resnexus.com/resnexus/reservations/lodging/6D97D6A3-AA56-41F2-9561-D08EE70FA8A5">Reservations</a></section><br /> 
+
+			<section class="menutitle">
+			    <a href="activities.html">Activities</a></section><br />
+
+			<section class="menutitle">
+			    <a href="calendar.html">Calendar</a></section><br />
+
+			<section class="menutitle">
+        		<a href="cabins.html">Cabins</a></section><br />    
+
+        	<section class="menutitle">
+			    <a href="rates.html">Rates</a></section><br />
+
+			<!--<section class="menutitle">
+			    <a href="trailer.html">Trailer</a></section><br /> -->
+
+			<section class="menutitle">
+			    <a href="map.html">Camp Map</a></section><br />
+
+			<section class="menutitle">
+			    <a href="information.html">Camp Info</a></section><br />
+
+			<!--<section class="menutitle">
+			    <a href="gallery.html">Photo Album</a></section><br />-->
+
+			<section class="menutitle">
+
+			    <a href="about.html">Owners</a></section><br />
+
+			<section class="menutitle">
+
+			    <a href="contact.html">Contact</a></section><br />
+
+			<p style="text-align:center; color:#840a2d;">Affiliations &amp; Discounts</p>
+			<!-- passport america logo -->
+			<div style ="text-align: center;">
+				<a href= "http://www.passportamerica.com/campgrounds/me/shadyoakscampgroundandcabins3844" rel="follow" target="_blank">
+				    <img src="http://www.passport-america.com/IMAGES/banners/PABanner2.gif" title="Passport America" alt="Passport America" />
+				</a>
+				<br>
+			</div>
+
+			<!-- happy camper club -->
+			<div style="padding-top: 20px; padding-bottom: 20px;"> 
+				<a href="http://www.camphalfprice.com/rvaffiliates/jrox.php?id=334_1_bid_19" target="_blank"><img src="http://www.camphalfprice.com/rvaffiliates/image.php?bid=19&mid=334" width="200" height="26" border="0"/></a>
+			</div>
+			
+		</div>
+
+		
+
+		<div class="grid-80">
+
+			<section class="content">
+
+			
+
+			<p align="center">
+
+			
+
+			<iframe id="map" width="640" height="180" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=32+Leaches+Point+Road+Orland,+ME+04472&amp;aq=&amp;sll=44.543995,-68.406372&amp;sspn=0.428206,0.617294&amp;ie=UTF8&amp;hq=&amp;hnear=32+Leaches+Point+Rd,+Orland,+Maine+04472&amp;ll=44.570114,-68.751534&amp;spn=0.013376,0.01929&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=32+Leaches+Point+Road+Orland,+ME+04472&amp;aq=&amp;sll=44.543995,-68.406372&amp;sspn=0.428206,0.617294&amp;ie=UTF8&amp;hq=&amp;hnear=32+Leaches+Point+Rd,+Orland,+Maine+04472&amp;ll=44.570114,-68.751534&amp;spn=0.013376,0.01929&amp;t=m&amp;z=14" style="color:#0000FF;text-align:left">
+
+			<font size="1">View Larger Map</font></a></small></p>
+
+		
+
+			
+
+	<div id="form_container" style="background-color: #E6E1CE">
+
+	
+
+		<form id="form_758696" class="appnitro"  method="post" action="http://www.shadyoakscampground.com/formmail.php">
+
+		<input type="hidden" name="recipients" value="shadyoaksme@gmail.com" />
+
+		<input type="hidden" name="good_url"   value="thanks.html" />
+
+		<input type="hidden" name="subject"    value="Website Contact Form Submission" />
+
+					<div class="form_description">
+
+			<h2>Contact US</h2>
+
+			<p>Please fill out the information below should you have any 
+
+			questions or comments.</p>
+
+		</div>						
+
+			<ul >
+
+			
+
+					<li id="li_1" >
+
+		<label class="description" for="First">Name </label>
+
+		<span>
+
+			<input id="element_1_1" name= "First" class="element text" maxlength="255" size="19" value=""/>
+
+			<label>First</label>
+
+			<input id="element_1_2" name= "Last" class="element text" maxlength="255" size="20" value=""/>
+
+			<label>Last</label>
+
+		</span>
+
+		</li>		<li id="li_2" >
+
+		<label class="description" for="Subject">Subject </label>
+
+		<div>
+
+			<input id="element_2" name="Subject" class="element text medium" type="text" maxlength="255" value=""/> 
+
+		</div> 
+
+		</li>		<li id="li_3" >
+
+		<label class="description" for="Email">Email address </label>
+
+		<div>
+
+			<input id="element_3" name="Email" class="element text medium" type="text" maxlength="255" value=""/> 
+
+		</div> 
+
+		</li>		<li id="li_4" >
+
+		<label class="description" for="Message">Message </label>
+
+		<div>
+
+			<textarea id="element_4" name="Message" class="element textarea medium"></textarea> 
+
+		</div> 
+
+		</li>
+
+			
+
+					<li class="buttons">
+
+			    <input type="hidden" name="form_id" value="758696" />
+
+			    
+
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+
+		</li>
+
+			</ul>
+
+		</form>
+
+	</div>
+
+	<img id="bottom" src="bottom.png" alt="">
+
+			</p>
+
+		</div>
+
+	</div>
+
+	
+
+</body>
+
+</html>
+

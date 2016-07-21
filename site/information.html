@@ -1,0 +1,581 @@
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+<title>Shady Oaks Campground</title>
+
+<!--[if lt IE 9]>
+
+  <script src="js/html5.js"></script>
+
+  <link rel="stylesheet" href="css/ie.css" />
+
+<![endif]-->
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+
+function slideSwitch() {
+
+	var $active = $('#slideshow IMG.active');
+
+	
+
+	if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+	
+
+	var $next = $active.next().length ? $active.next()
+
+		: $('#slideshow IMG:first');
+
+	
+
+	$active.addClass('last-active');
+
+	
+
+	$next.css({opacity: 0.0})
+
+		.addClass('active')
+
+		.animate({opacity: 1.0}, 1000, function() {
+
+			$active.removeClass('active last-active');
+
+		});
+
+}
+
+
+
+$(function() {
+
+	setInterval( "slideSwitch()", 5000 );
+
+});
+
+
+
+  </script>
+
+  <link href='http://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
+
+  <link href='css/unsemantic-grid-responsive.css' rel='stylesheet' type='text/css'>
+
+  <link href='css/soc.css' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<!-- DO NOT MOVE! The following AllWebMenus linking code section must always be placed right AFTER the BODY tag-->
+
+<!-- ******** BEGIN ALLWEBMENUS CODE FOR banner ******** -->
+
+<script type="text/javascript">var MenuLinkedBy="AllWebMenus [4]",awmMenuName="banner",awmBN="934";</script><script charset="UTF-8" src="banner.js" type="text/javascript"></script><script type="text/javascript">awmBuildMenu();</script>
+
+<!-- ******** END ALLWEBMENUS CODE FOR banner ******** -->
+
+
+
+<!-- Google Tag Manager -->
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TLWNXT"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-TLWNXT');</script>
+
+<!-- End Google Tag Manager -->
+
+	<div class="header">
+
+	<div class="grid-container">
+
+		<div class="grid-45 logo">
+
+			<img src="images/soclogo3.png">			
+
+			<p align="center">32 Leaches Point Road Orland, ME 04472<br />
+
+			207.469.7739</p>
+
+		</div>
+
+		<div class="grid-35">
+
+			<div id="slideshow">
+
+				<img src="images/slides/train.jpg" class="active">
+
+				<img src="images/slides/rvs.jpg">
+
+				<img src="images/slides/cabin.jpg">
+
+				<img src="images/slides/mt-desert.jpg">
+
+				<img src="images/slides/train-crossing.jpg">
+
+				<img src="images/slides/garden.jpg">
+
+				<img src="images/slides/rvs2.jpg">
+
+			</div>
+
+		</div>
+
+	</div>
+
+	</div>
+
+	<div class="adornment"></div>
+
+	<p />
+
+	<div class="grid-container">
+
+		<div class="grid-20">
+
+			<section class="menutitle">
+			    <a href="index.html">Home</a></section><br />
+
+			 <section class="menutitle">
+			    <a href="https://reserve1.resnexus.com/resnexus/reservations/lodging/6D97D6A3-AA56-41F2-9561-D08EE70FA8A5">Reservations</a></section><br /> 
+
+			<section class="menutitle">
+			    <a href="activities.html">Activities</a></section><br />
+
+			<section class="menutitle">
+			    <a href="calendar.html">Calendar</a></section><br />
+
+			<section class="menutitle">
+        		<a href="cabins.html">Cabins</a></section><br />    
+
+        	<!-- <section class="menutitle">
+
+			    <a href="trailer.html">Trailer</a></section><br /> -->
+
+        	<section class="menutitle">
+			    <a href="rates.html">Rates</a></section><br />
+
+			<section class="menutitle">
+			    <a href="map.html">Camp Map</a></section><br />
+
+			<section class="menutitle">
+			    <a href="information.html">Camp Info</a></section><br />
+
+			<!--<section class="menutitle">
+
+			    <a href="gallery.html">Photo Album</a></section><br />-->
+
+			<section class="menutitle">
+			    <a href="about.html">Owners</a></section><br />
+
+			<section class="menutitle">
+			    <a href="contact.html">Contact</a></section><br />
+
+			<p style="text-align:center; color:#840a2d;">Affiliations &amp; Discounts</p>
+			<!-- passport america logo -->
+			<div style ="text-align: center;">
+				<a href= "http://www.passportamerica.com/campgrounds/me/shadyoakscampgroundandcabins3844" rel="follow" target="_blank">
+				    <img src="http://www.passport-america.com/IMAGES/banners/PABanner2.gif" title="Passport America" alt="Passport America" />
+				</a>
+				<br>
+			</div>
+
+			<!-- happy camper club -->
+			<div style="padding-top: 20px; padding-bottom: 20px;"> 
+				<a href="http://www.camphalfprice.com/rvaffiliates/jrox.php?id=334_1_bid_19" target="_blank"><img src="http://www.camphalfprice.com/rvaffiliates/image.php?bid=19&mid=334" width="200" height="26" border="0"/></a>
+			</div>
+			
+		</div>
+
+		<div class="grid-80">
+
+			<section class="content">
+
+			    <section class="sectiontitle">Campground Information</section><p />
+
+			  <p>In order to make your stay with us more pleasant, we ask that the following policies be observed
+
+by campers and their guests.
+
+Thank you for staying at Shady Oaks! </p>
+
+<p><i>David & Marlene Greenlaw</i></p>
+
+<h3>Policies & Reminders</h3>
+
+<ul>
+
+	<li>Check in 1:00 pm. Check out 11:00 am.</li>
+
+	<li>Quiet time 10:00 pm to 8:00 am and is strictly
+
+enforced.</li>
+
+	<li>Speed limit is 5 mph and is strictly enforced.
+
+	</li>
+
+	<li>All guests must check in and register at the office.
+
+	<br>
+
+	Guest fees: 
+
+<ul>
+
+	<li>Daily rate $3 per person.
+
+</li>
+
+	<li>Overnight rate $5 per person. </li>
+
+</ul>
+
+	</li>
+
+	<li>The use of firearms and fireworks is prohibited.
+
+	</li>
+
+	<li>Bicycles are not to be ridden on walkways or
+
+after dark. </li>
+
+	<li>Mini bikes and ATV's are not permitted.
+
+	</li>
+
+	<li>If you wish to extend your stay, please notify
+
+the office.</li>
+
+</ul>
+
+<h3>
+
+            <img border="0" src="images/train-crossing.jpg" width="375" height="500" align="right">Security Gate</h3>
+
+<ul>
+
+	<li>All residents are asked to maintain the integrity of the security gate 
+
+system by not giving or loaning your automatic control to anyone. This service 
+
+is for residents use only. If you are expecting guests, please notify the 
+
+office.</li>
+
+</ul>
+
+<h3>Camp Site</h3>
+
+<ul>
+
+	<li>One RV and two motor vehicles per site.</li>
+
+	<li>Sewer hookups:&nbsp; Your RV sewer lines must be accompanied
+
+with an approved hose/connection system to
+
+provide a tight fit to eliminate gas fumes.&nbsp; Waste water cannot be emptied on the ground
+
+(State Law.)
+
+	</li>
+
+	<li>Residents shall maintain their space in a clean
+
+and orderly manner.</li>
+
+	<li>No outside clotheslines permitted on site.
+
+	</li>
+
+	<li>Improvements to your site must be approved by
+
+management.
+
+	</li>
+
+	<li>Storage units must be approved by management.
+
+	</li>
+
+	<li>Campfires are permitted in the provided fire rings
+
+only. Please do not relocate fire rings.</li>
+
+	<li>Trees should not be cut or otherwise damaged. </li>
+
+</ul>
+
+<h3>Children
+
+</h3>
+
+<ul>
+
+	<li>Parents are responsible for the actions and safety
+
+of their children at all times.
+
+	</li>
+
+	<li>Children under 14 are not allowed in the swimming
+
+pool without a supervising adult.
+
+	</li>
+
+	<li>Young children must be supervised by an adult
+
+while using the playground.
+
+	</li>
+
+	<li>Bicycles are not to be ridden on walkways or
+
+after dark. </li>
+
+</ul>
+
+<p align="center">
+
+			<img border="0" src="images/acorn.png"></p>
+
+<h3>Guests
+
+</h3>
+
+<ul>
+
+	<li>All guests must check in and register at the office. <br>
+
+	Guest fees:<ul>
+
+		<li>&nbsp;Daily rate $3 per person.
+
+		</li>
+
+		<li>Overnight rate $5 per person. </li>
+
+	</ul>
+
+</li>
+
+<li>Tenants must be on the premises and are
+
+responsible for guests.
+
+	</li>
+
+	<li>Parents are responsible for the actions and safety
+
+of their children at all times.
+
+	</li>
+
+	<li>Limit of 4 guests per campsite. </li>
+
+</ul>
+
+<h3>Dogs
+
+</h3>
+
+<ul>
+
+	<li>Dogs are allowed ONLY in <i>The Estates</i> and in the
+
+designated dog park. </li>
+
+<li>Dogs must be accompanied by owner at all times.
+
+	</li>
+
+	<li>Dogs must be on leash.
+
+</li>
+
+<li>No chained dogs are allowed.
+
+</li>
+
+<li>Owners are responsible for cleaning up after
+
+their dog(s). </li>
+
+</ul>
+
+<h3>Laundry
+
+</h3>
+
+<ul>
+
+	<li>Laundry is available 24 hours (at the Bath House
+
+and in <i>The Estates.</i>)
+
+	</li>
+
+	<li>Do not leave clothes unattended.
+
+</li>
+
+<li>Dying clothes is not permitted. </li>
+
+</ul>
+
+<h3>Trash
+
+</h3>
+
+<ul>
+
+	<li>All trash must be placed in the dumpster. All boxes
+
+must be broken down.
+
+</li>
+
+<li>Burning trash is not allowed.
+
+</li>
+
+<li>Seafood shells must be placed in plastic bags and
+
+then disposed of.</li>
+
+</ul>
+
+<h3><img align="right" src="images/pool.jpg" width="375" height="363">Pool
+
+</h3>
+
+<ul>
+
+	<li>Hours 9:00 am to Dusk.
+
+</li>
+
+	<li>Please note pool rules located within pool area.</li>
+
+	<li>Children under 14 are not allowed in the swimming
+
+pool area without a supervising adult. </li>
+
+</ul>
+
+<h3>Smoking
+
+</h3>
+
+<ul>
+
+	<li>All buildings (including cabins, store, recreation
+
+hall, bath house and laundry rooms) the pool and
+
+the porch area are smoke free.
+
+</li>
+
+	<li>Please do not throw your butts on the ground. </li>
+
+</ul>
+
+<h3>Mail
+
+</h3>
+
+<ul>
+
+	<li>When having mail sent to Shady Oaks, please use
+
+this format:
+
+<br>
+
+		Your Name
+
+<br>
+
+		32 Leaches Point Road
+
+<br>
+
+		Your site number
+
+<br>
+
+	Orland, ME 04472 </li>
+
+</ul>
+
+<h3>Emergency
+
+</h3>
+
+<ul>
+
+	<li>In case of emergency, dial 911 and then
+
+call the office 207. 469. 7739.
+
+</li>
+
+	<li>Emergency phone messages will be delivered
+
+immediately.
+
+</li>
+
+	<li>Please notify management of all accidents,
+
+emergencies or of any unsafe conditions. </li>
+
+</ul>
+
+<p align="center"><i>Shady Oaks Campground & Cabins
+
+is privately owned and operated.
+
+<br>
+
+We reserve the right to refuse service to anyone.
+
+We will not be responsible for accidents, injury, loss
+
+of money or loss of valuables of any kind.</i></p>
+
+            </section>
+
+		</div>
+
+	</div>
+
+	
+
+</body>
+
+</html>
