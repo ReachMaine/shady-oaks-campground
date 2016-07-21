@@ -1,5 +1,5 @@
 //----------DHTML Menu Created using AllWebMenus PRO ver 5.3-#934---------------
-//F:\Internet\_Websites\Shady Oaks\site\floating banner.awm
+//F:\Internet\Users\Linda\github_websites\shady-oaks-campground\site\floating banner.awm
 var awmMenuName='banner';
 var awmLibraryBuild=934;
 var awmLibraryPath='/awmdata';
@@ -30,14 +30,14 @@ var awmPosClass='';
 var awmSubmenusFrame='';
 var awmSubmenusFrameOffset;
 var awmOptimize=0;
-var awmHash='QNWVGREAYEFUUINWUKPYWX';
+var awmHash='IHSKQTRWFFHAGALAEALAER';
 var awmNoMenuPrint=1;
 var awmUseTrs=0;
 var awmSepr=["0","","",""];
 var awmMarg=[0,0,0,0];
 function awmBuildMenu(){
 if (awmSupported){
-awmImagesColl=["open-for-seasonS.png",359,203,"cross.png",9,9];
+awmImagesColl=["banner.png",359,203,"cross.png",9,9];
 awmCreateCSS(0,1,0,n,n,n,n,n,'none','0','#000000','0px 0px 0px 0',0,'0px / 0px',n);
 awmCreateCSS(1,2,1,'#F2F2F2',n,n,'15px Verdana, Arial, Helvetica, sans-serif',n,'none','0','#000000','6px 8px 6px 8',0,'0px / 0px',n);
 awmCreateCSS(0,2,1,'#F2F2F2',n,n,'15px Verdana, Arial, Helvetica, sans-serif',n,'none','0','#000000','6px 8px 6px 8',0,'0px / 0px',n);
